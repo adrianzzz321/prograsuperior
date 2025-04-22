@@ -15,8 +15,6 @@ int main(void)
         {
             numero_digitos(b);
         }
-
     }
-    
     return 0;
 }
