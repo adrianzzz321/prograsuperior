@@ -2,7 +2,7 @@
 #include "funciones.c" 
 int main(int argc, char const *argv[])
 {
-    int a;int b;int invertido=0;
+    int a;int b;int invertido=0; 
     while (1)
     {
         printf("ingresa un numero: ");
@@ -20,3 +20,4 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+    
