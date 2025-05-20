@@ -6,5 +6,5 @@ def Menu ():
     print("4. Mostrar la cantidad de números primos entre 1 y N.")
     print("5. Verificar si un número es palíndromo (número capicúa)")
     print("6. Salir del programa.")
-    a=input(print("Seleccione una opción:"))
+    a=input("Seleccione una opción:")
     return a 
