@@ -2,16 +2,18 @@
 from funciones import Menu
 from funciones import Numero
 from funciones import operacion_1
+from funciones import operacion_2
 l=1
 while l==1:
     opcion=Menu()
     match opcion:
         case '1':
             numero=Numero()
-            contador_1=operacion_1(numero)
+            operacion_1(numero)
             ...
         case '2':
             numero=Numero()
+            operacion_2(numero)
             ...
         case '3':
             numero=Numero()
