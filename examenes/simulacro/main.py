@@ -3,6 +3,8 @@ from funciones import Menu
 from funciones import Numero
 from funciones import operacion_1
 from funciones import operacion_2
+from funciones import operacion_3
+
 l=1
 while l==1:
     opcion=Menu()
@@ -17,6 +19,7 @@ while l==1:
             ...
         case '3':
             numero=Numero()
+            operacion_3(numero)
             ...
         case '4':
             numero=Numero()
