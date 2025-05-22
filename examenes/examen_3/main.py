@@ -3,7 +3,7 @@ from operaciones import Numero
 from operaciones import operacion_1
 from operaciones import operacion_2
 from operaciones import operacion_3
-# from operaciones import operacion_4
+from operaciones import operacion_4
 # from operaciones import operacion_5
 l=1
 while l==1:
@@ -23,6 +23,6 @@ while l==1:
             ...
         case '4':
             numero=Numero()
-            # operacion_4(numero)
+            operacion_4(numero)
         case '5':
             l=0
