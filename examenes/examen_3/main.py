@@ -1,6 +1,6 @@
 from operaciones import Menu
 from operaciones import Numero
-# from operaciones import operacion_1
+from operaciones import operacion_1
 # from operaciones import operacion_2
 # from operaciones import operacion_3
 # from operaciones import operacion_4
@@ -11,7 +11,7 @@ while l==1:
     match opcion:
         case '1':
             numero=Numero()
-            # operacion_1(numero)
+            operacion_1(numero)
             ...
         case '2':
             numero=Numero()
