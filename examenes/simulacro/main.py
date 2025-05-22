@@ -5,6 +5,7 @@ from funciones import operacion_1
 from funciones import operacion_2
 from funciones import operacion_3
 from funciones import operacion_4
+from funciones import operacion_5
 
 l=1
 while l==1:
@@ -28,6 +29,7 @@ while l==1:
             ...
         case '5':
             numero=Numero()
+            operacion_5(numero)
             ...
         case '6':
             l=0
