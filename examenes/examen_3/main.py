@@ -1,8 +1,8 @@
 from operaciones import Menu
 from operaciones import Numero
 from operaciones import operacion_1
-# from operaciones import operacion_2
-# from operaciones import operacion_3
+from operaciones import operacion_2
+from operaciones import operacion_3
 # from operaciones import operacion_4
 # from operaciones import operacion_5
 l=1
@@ -15,11 +15,11 @@ while l==1:
             ...
         case '2':
             numero=Numero()
-            # operacion_2(numero)
+            operacion_2(numero)
             ...
         case '3':
             numero=Numero()
-            # operacion_3(numero)
+            operacion_3(numero)
             ...
         case '4':
             numero=Numero()
