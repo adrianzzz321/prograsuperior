@@ -4,7 +4,6 @@ from operaciones import operacion_1
 from operaciones import operacion_2
 from operaciones import operacion_3
 from operaciones import operacion_4
-# from operaciones import operacion_5
 l=1
 while l==1:
     opcion=Menu()
@@ -25,4 +24,5 @@ while l==1:
             numero=Numero()
             operacion_4(numero)
         case '5':
+            print("SALIENDO DEL PROGRAMA.....")
             l=0

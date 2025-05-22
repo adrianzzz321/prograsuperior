@@ -4,5 +4,5 @@ def operacion_3(numero):
         for i in range(1, j+1):
             if j % i == 0:
                 cont += 1
-        if cont == 2:
+        if cont == 2:#si el numero de divisibles es igual a dos lo imprime
             print(j)
